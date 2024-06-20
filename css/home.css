@@ -1,6 +1,9 @@
 body{
     background-color:rgb(226, 226, 226)
 }
+@media only screen and (max-device-width: 600px){
+    header, .grid-container, .grid-item, .menuLateral, .bttFV { width:100%; }
+}
 /*Header*/
 *{
     padding: 0;

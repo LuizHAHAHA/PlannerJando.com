@@ -12,14 +12,16 @@
     text-align: center;
     line-height: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+@media only screen and (max-device-width: 600px){
+    #logon, #cadas, #recuAreaId { width:100%; }
 }
 .form{
     background-color: #7BC74D;    
     padding: 13%;
     border: solid; border-radius: 30px; border-width: 3px;
     box-shadow: 0 0 50px #000000;
-    min-height: 100%;
-    min-width: 100%;
 }
 #recuAreaId{
     background-color: #222831;
@@ -35,8 +37,6 @@
     padding: 13%;
     border: solid; border-radius: 30px; border-width: 3px; 
     box-shadow: 0 0 50px #000000;
-    min-height: 100%;
-    min-width: 100%;
 }
 h1, h2{
     color: #ffffff;
@@ -49,8 +49,8 @@ h3{
     line-height: 30px;
 }
 .change{
-    min-width: 53%;
-    min-height: 38px;
+    width: 53%;
+    height: 38px;
     border: 1px solid; border-radius: 10px; border-width: 1px; border-color: #000000;
     box-shadow: 3px 4px #000000;
     font-size: larger;
@@ -59,7 +59,7 @@ h3{
     color: #ffffff;
 }
 .line{
-    min-width: 40%;
+    width: 40%;
     height: 0;
     border: 1px solid #000000;
     margin: 3px;
@@ -72,10 +72,10 @@ h3{
 input{
     background-color: #c2c3c4;
     border: 2px solid; border-radius: 10px; border-width: 1px;
-    min-width: 70%;
-    min-height: 35px;
+    width: 70%;
+    height: 35px;
     box-shadow: 5px 5px rgb(17, 17, 17);
-
+    
 }
 ::placeholder{
     text-align: left;
