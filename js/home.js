@@ -26,14 +26,6 @@ function voltaMes(){
   }
 }
 
-function caxaTexto(){
-  
-}
-
-
-
-
-
 function mes1(){
 if(mes == "janeiro"){
   document.getElementById("div1").textContent="";
